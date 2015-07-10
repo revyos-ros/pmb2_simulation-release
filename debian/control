@@ -1,0 +1,12 @@
+Source: ros-indigo-pmb2-gazebo
+Section: misc
+Priority: extra
+Maintainer: PAL Robotics <info@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pmb2-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-gazebo-ros, ros-indigo-pmb2-bringup, ros-indigo-pmb2-controller-configuration-gazebo, ros-indigo-pmb2-description, ros-indigo-pmb2-hardware-gazebo
+Description: Simulation files for the PMB2 robot.
