@@ -107,6 +107,12 @@
     </include>
 
     <include>
+      <uri>model://ramp</uri>
+      <name>ramp</name>
+      <pose>32 -2 0 0 0 0</pose>
+    </include>
+
+    <include>
       <uri>model://bench</uri>
       <name>bemch</name>
       <pose>-35 -10 0 0 0 0</pose>
