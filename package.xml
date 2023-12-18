@@ -1,13 +1,15 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>pmb2_gazebo</name>
-  <version>4.0.4</version>
+  <version>4.0.6</version>
   <description>Simulation files for the PMB2 robot.</description>
   <maintainer email="jordan.palacios@pal-robotics.com">Jordan Palacios</maintainer>
   <maintainer email="noel.jimenez@pal-robotics.com">Noel Jimenez</maintainer>
   <maintainer email="tiago-support@pal-robotics.com">TIAGo support PAL Robotics</maintainer>
   <license>Apache License 2.0</license>
   <author email="victor.lopez@pal-robotics.com">Victor Lopez</author>
+
+  <url type="website">https://github.com/pal-robotics/pmb2_simulation</url>
 
   <buildtool_depend>ament_cmake_auto</buildtool_depend>
 
