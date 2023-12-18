@@ -2,6 +2,17 @@
 Changelog for package pmb2_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.0.6 (2023-11-14)
+------------------
+* Add website tag
+* Contributors: Noel Jimenez
+
+4.0.5 (2023-11-13)
+------------------
+* Set use_sim_time true
+* Remove pal flags dependency
+* Contributors: Noel Jimenez
+
 4.0.4 (2023-06-16)
 ------------------
 * Merge branch 'fix/set-is-robot' into 'humble-devel'
