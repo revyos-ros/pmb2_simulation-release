@@ -66,10 +66,16 @@ Also you can add it to your .bashrc
 Launch gazebo simulation:
 
 ```console
-ros2 launch pmb2_gazebo pmb2_gazebo.launch.py
+ros2 launch pmb2_gazebo pmb2_gazebo.launch.py is_public_sim:=True
 ```
 
 <img src="doc/media/pmb2_gazebo.png" title="PMB2 simulation" width="85%">
+
+You can launch gazebo simulation using PAL office gazebo world by executing:
+
+```console
+ros2 launch pmb2_gazebo pmb2_gazebo.launch.py is_public_sim:=True world_name:=pal_office
+```
 
 To move the robot you can use the following command from another terminal:
 
@@ -85,7 +91,7 @@ The velocities can be modified by changing the values of x and z.
 You can launch PMB2 navigation by executing 
 
 ```console
-ros2 launch pmb2_2dnav pmb2_nav_bringup.launch.py
+ros2 launch pmb2_2dnav pmb2_nav_bringup.launch.py is_public_sim:=True
 ```
 
 Then, you can send a goal:
@@ -101,7 +107,16 @@ Then, you can send a goal:
 You can also start the simulation and navigation together by using
 
 ```console
-ros2 launch pmb2_gazebo pmb2_gazebo.launch.py navigation:=true
+ros2 launch pmb2_gazebo pmb2_gazebo.launch.py is_public_sim:=True navigation:=True
 ```
 
 Then, goals can be sent in the same way.
+
+### Simulation + Navigation 2 + SLAM
+
+You can start the SLAM and navigation in simulation by using
+
+```console
+ros2 launch pmb2_gazebo pmb2_gazebo.launch.py is_public_sim:=True navigation:=True slam:=True
+```
+To use private simulation you can avoid to set is_public_sim argument.
