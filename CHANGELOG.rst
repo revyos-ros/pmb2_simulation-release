@@ -2,6 +2,45 @@
 Changelog for package pmb2_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.0.11 (2024-06-18)
+-------------------
+* courier_rgdb_sensor renamed
+* Launch std
+* Contributors: Oscar, oscarmartinez
+
+4.0.10 (2024-05-08)
+-------------------
+* added pose configuration in spawn entity
+* added pose conifiguration in spawn_entity args
+* Contributors: martinaannicelli
+
+4.0.9 (2024-04-11)
+------------------
+* Merge branch 'feat/ros2-pipelines' into 'humble-devel'
+  navigation pipeline integration for private sim
+  See merge request robots/pmb2_simulation!68
+* cosmetic
+* update readme and cosmetic
+* removed slam arg
+* linters
+* navigation pipeline integration for private sim
+* Contributors: andreacapodacqua, antoniobrandi
+
+4.0.8 (2024-02-05)
+------------------
+
+4.0.7 (2024-02-02)
+------------------
+* Merge branch 'feat/register-components' into 'humble-devel'
+  use single entry point for navigation
+  See merge request robots/pmb2_simulation!66
+* use single entry point for navigation
+* Merge branch 'abr/fix/world-name' into 'humble-devel'
+  moving world_name to pal_gazebo_worlds
+  See merge request robots/pmb2_simulation!65
+* moving world_name to pal_gazebo_worlds
+* Contributors: Noel Jimenez, antoniobrandi
+
 4.0.6 (2023-11-14)
 ------------------
 * Add website tag
