@@ -1,4 +1,4 @@
-release_repo_url: git@github.com:revyos-ros/pmb2_simulation-release
+release_repo_url: git@github.com:revyos-ros/pmb2_simulation-release.git
 tracks:
   humble:
     actions:
