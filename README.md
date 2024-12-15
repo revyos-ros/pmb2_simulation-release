@@ -1,3 +1,31 @@
+## pmb2_simulation (humble) - 4.2.0-1
+
+The packages in the `pmb2_simulation` repository were released into the `humble` distro by running `/home/z572/gits/revyos-ros/venv2/bin/bloom-release -r humble pmb2_simulation --override-release-repository-push-url git@github.com:revyos-ros/pmb2_simulation-release.git` on `Sun, 15 Dec 2024 05:08:01 -0000`
+
+These packages were released:
+- `pmb2_gazebo`
+- `pmb2_simulation`
+
+These packages were explicitly ignored:
+- `pmb2_multi`
+
+Version of package(s) in repository `pmb2_simulation`:
+
+- upstream repository: https://github.com/pal-robotics/pmb2_simulation.git
+- release repository: https://github.com/revyos-ros/pmb2_simulation-release.git
+- rosdistro version: `4.1.0-1`
+- old version: `4.0.16-2`
+- new version: `4.2.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## pmb2_simulation (humble) - 4.0.16-2
 
 The packages in the `pmb2_simulation` repository were released into the `humble` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r humble pmb2_simulation --override-release-repository-push-url git@github.com:revyos-ros/pmb2_simulation-release` on `Mon, 02 Sep 2024 09:50:18 -0000`
