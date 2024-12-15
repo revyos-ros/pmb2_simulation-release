@@ -2,6 +2,17 @@
 Changelog for package pmb2_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.2.0 (2024-12-02)
+------------------
+* always start docking with adv navigation
+* use docking arg
+* Contributors: antoniobrandi
+
+4.1.0 (2024-10-17)
+------------------
+* added advanced nav launch arg to navigation
+* Contributors: martinaannicelli
+
 4.0.16 (2024-07-08)
 -------------------
 * added advanced navigation
